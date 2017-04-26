@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EF6A02E61EB0991300441F93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A02E51EB0991300441F93 /* AppDelegate.swift */; };
-		EF6A02E81EB0991300441F93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A02E71EB0991300441F93 /* ViewController.swift */; };
 		EF6A02EB1EB0991300441F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6A02E91EB0991300441F93 /* Main.storyboard */; };
 		EF6A02ED1EB0991300441F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6A02EC1EB0991300441F93 /* Assets.xcassets */; };
 		EF6A02F01EB0991300441F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF6A02EE1EB0991300441F93 /* LaunchScreen.storyboard */; };
+		EF6A02FA1EB09E5100441F93 /* FLHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A02F91EB09E5100441F93 /* FLHomeViewController.swift */; };
+		EF6A02FC1EB09E6200441F93 /* FLContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A02FB1EB09E6200441F93 /* FLContentViewController.swift */; };
+		EF6A02FE1EB09E8000441F93 /* FLFinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6A02FD1EB09E8000441F93 /* FLFinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF6A02E21EB0991300441F93 /* FastLaneSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLaneSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6A02E51EB0991300441F93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF6A02E71EB0991300441F93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF6A02EA1EB0991300441F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF6A02EC1EB0991300441F93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF6A02EF1EB0991300441F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF6A02F11EB0991300441F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF6A02F91EB09E5100441F93 /* FLHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLHomeViewController.swift; sourceTree = "<group>"; };
+		EF6A02FB1EB09E6200441F93 /* FLContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLContentViewController.swift; sourceTree = "<group>"; };
+		EF6A02FD1EB09E8000441F93 /* FLFinalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLFinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				EF6A02E51EB0991300441F93 /* AppDelegate.swift */,
-				EF6A02E71EB0991300441F93 /* ViewController.swift */,
 				EF6A02E91EB0991300441F93 /* Main.storyboard */,
+				EF6A02F91EB09E5100441F93 /* FLHomeViewController.swift */,
+				EF6A02FB1EB09E6200441F93 /* FLContentViewController.swift */,
+				EF6A02FD1EB09E8000441F93 /* FLFinalViewController.swift */,
 				EF6A02EC1EB0991300441F93 /* Assets.xcassets */,
 				EF6A02EE1EB0991300441F93 /* LaunchScreen.storyboard */,
 				EF6A02F11EB0991300441F93 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF6A02E81EB0991300441F93 /* ViewController.swift in Sources */,
 				EF6A02E61EB0991300441F93 /* AppDelegate.swift in Sources */,
+				EF6A02FE1EB09E8000441F93 /* FLFinalViewController.swift in Sources */,
+				EF6A02FC1EB09E6200441F93 /* FLContentViewController.swift in Sources */,
+				EF6A02FA1EB09E5100441F93 /* FLHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FLFinalViewController.swift
 //  FastLaneSample
 //
 //  Created by Denny Mathew on 26/04/17.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FLFinalViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func actHomeButton(_ sender: UIButton) {
+        navigationController?.popToRootViewController(animated: true);
+    }
 }
-
